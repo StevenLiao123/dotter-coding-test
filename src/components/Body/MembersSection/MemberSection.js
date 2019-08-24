@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default () => <section class="member-section">
+export default () => <section className="member-section">
     <h1>member section</h1>
 </section>;

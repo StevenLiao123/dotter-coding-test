@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default () => <div class="latest-scores">
+export default () => <div className="latest-scores">
     <h1>Latest Scores</h1>
 </div>;
