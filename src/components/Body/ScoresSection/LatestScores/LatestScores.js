@@ -1,5 +1,59 @@
 import React from 'react';
+import { ScoreCard } from './ScoreCard';
+import { categories, categoryData, colors } from '../../constants';
+
+const RowData1 = [{
+    title: categories.PERSONAL_LIFE,
+    color: colors.RED,
+},
+{
+    title: categories.WORK_LIFE_BALANCE,
+    color: colors.GREEN,
+},
+{
+    title: categories.PERSONAL_WELLNESS,
+    color: colors.YELLOW,
+},
+{
+    title: categories.TEAM_FUN,
+    color: colors.PURPLE,
+}];
+
+const RowData2 = [{
+    title: categories.PRODUCTION_SPEED,
+    color: colors.RED,
+},
+{
+    title: categories.PRODUCT_QUALITY,
+    color: colors.GREEN,
+},
+{
+    title: categories.COMMUNICATION,
+    color: colors.YELLOW,
+},
+{
+    title: categories.COLLABORATION,
+    color: colors.PURPLE,
+}];
 
 export default () => <div className="latest-scores">
-    <h1>Latest Scores</h1>
+    <h6 className="text-center">Latest Scores</h6>
+    <div className="row">
+        {
+            RowData1.map((item) =>
+                <div className="col-md-6 col-lg-3">
+                    <ScoreCard title={item.title} score={categoryData[item.title]} color={item.color} />
+                </div>
+            )
+        }
+    </div>
+    <div className="row">
+        {
+            RowData2.map((item) =>
+                <div className="col-md-6 col-lg-3">
+                    <ScoreCard title={item.title} score={categoryData[item.title]} color={item.color} />
+                </div>
+            )
+        }
+    </div>
 </div>;
