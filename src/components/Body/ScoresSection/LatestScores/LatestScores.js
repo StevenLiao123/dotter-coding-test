@@ -36,24 +36,54 @@ const RowData2 = [{
     color: colors.PURPLE,
 }];
 
-export default () => <div className="latest-scores">
-    <h6 className="text-center">Latest Scores</h6>
-    <div className="row">
-        {
-            RowData1.map((item) =>
-                <div className="col-md-6 col-lg-3">
-                    <ScoreCard title={item.title} score={categoryData[item.title]} color={item.color} />
+class LatestScrores extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            currentSelectCardName: categories.PERSONAL_LIFE,
+        };
+    }
+
+    onCardClick = (event) => {
+        event.preventDefault();
+        this.setState({
+            currentSelectCardName: event.target.dataset.value
+        });
+    };
+
+    render() {
+        return (
+            <div className="latest-scores">
+                <h6 className="text-center">Latest Scores</h6>
+                <div className="row m-0">
+                    {
+                        RowData1.map((item) =>
+                            <div className="col-md-6 col-lg-3">
+                                <ScoreCard title={item.title}
+                                    score={categoryData[item.title]}
+                                    color={item.color}
+                                    onClick={this.onCardClick}
+                                    currentSelectedCard={this.state.currentSelectCardName} />
+                            </div>
+                        )
+                    }
                 </div>
-            )
-        }
-    </div>
-    <div className="row">
-        {
-            RowData2.map((item) =>
-                <div className="col-md-6 col-lg-3">
-                    <ScoreCard title={item.title} score={categoryData[item.title]} color={item.color} />
+                <div className="row m-0">
+                    {
+                        RowData2.map((item) =>
+                            <div className="col-md-6 col-lg-3">
+                                <ScoreCard title={item.title}
+                                    score={categoryData[item.title]}
+                                    color={item.color}
+                                    onClick={this.onCardClick}
+                                    currentSelectedCard={this.state.currentSelectCardName} />
+                            </div>
+                        )
+                    }
                 </div>
-            )
-        }
-    </div>
-</div>;
+            </div>
+        )
+    };
+}
+
+export default LatestScrores
