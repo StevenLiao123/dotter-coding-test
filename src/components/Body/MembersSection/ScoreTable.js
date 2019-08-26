@@ -1,9 +1,9 @@
 import React from 'react';
 import { categories, categoryData } from '../constants';
 
-export default () => <div class="container">
+export default () => <div className="container">
 <h4>Member (3)</h4>         
-<table class="table table-hover" data-toggle="table" data-sort-name="date" data-sort-order="desc">
+<table className="table table-hover" data-toggle="table" data-sort-name="date" data-sort-order="desc">
   <thead>
     <tr>
       <th>Firstname</th>

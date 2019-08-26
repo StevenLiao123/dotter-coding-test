@@ -58,7 +58,7 @@ class LatestScrores extends React.Component {
                 <div className="row m-0">
                     {
                         RowData1.map((item) =>
-                            <div className="col-md-6 col-lg-3">
+                            <div key={item.title} className="col-md-6 col-lg-3">
                                 <ScoreCard title={item.title}
                                     score={categoryData[item.title]}
                                     color={item.color}
@@ -71,7 +71,7 @@ class LatestScrores extends React.Component {
                 <div className="row m-0">
                     {
                         RowData2.map((item) =>
-                            <div className="col-md-6 col-lg-3">
+                            <div key={item.title} className="col-md-6 col-lg-3">
                                 <ScoreCard title={item.title}
                                     score={categoryData[item.title]}
                                     color={item.color}

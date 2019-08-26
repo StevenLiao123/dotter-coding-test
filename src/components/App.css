@@ -1,0 +1,10 @@
+/* bootstrap overrides */
+.px-5 {
+    padding-left: 68px !important;
+    padding-right: 68px !important;
+}
+
+body {
+    font-family: "Rubik";
+}
+
