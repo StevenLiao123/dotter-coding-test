@@ -5,7 +5,7 @@ export const categories = {
     COLLABORATION: "Collaboration",
     TEAM_FUN: "Team fun",
     PERSONAL_WELLNESS: "Personal wellness",
-    WORK_LIFE_BALANCE: "Work / life",
+    WORK_LIFE_BALANCE: "Work / life balance",
     PERSONAL_LIFE: "Personal life",
 };
 

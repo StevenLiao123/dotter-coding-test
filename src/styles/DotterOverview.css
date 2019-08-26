@@ -1,0 +1,13 @@
+.button1 {
+    display: inline-block;
+    color: white;
+    background-color: #0C2438;
+	position: relative;
+	margin: 10px;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px/25px Arial, sans-serif;
+	border-radius: 30px;
+  }
+  

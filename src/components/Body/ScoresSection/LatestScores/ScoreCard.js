@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../../../styles/ScoreCard.css';
 import PropTypes from 'prop-types';
 
 export const ScoreCard = ({title, score, color}) => <div className="score-card" style={{
