@@ -54,7 +54,7 @@ class LatestScrores extends React.Component {
     render() {
         return (
             <div className="latest-scores">
-                <h6 className="text-center">Latest Scores</h6>
+                <h5 className="text-center text-dark">Latest Scores</h5>
                 <div className="row m-0">
                     {
                         RowData1.map((item) =>

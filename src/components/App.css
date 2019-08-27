@@ -4,6 +4,10 @@
     padding-right: 68px !important;
 }
 
+.btn-red {
+    background: #FC6960;
+}
+
 body {
     font-family: "Rubik";
 }
