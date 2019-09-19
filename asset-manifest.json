@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dotter-coding-test/static/css/main.04973020.chunk.css",
-    "main.js": "/dotter-coding-test/static/js/main.82b5a1b6.chunk.js",
-    "main.js.map": "/dotter-coding-test/static/js/main.82b5a1b6.chunk.js.map",
+    "main.css": "/dotter-coding-test/static/css/main.690ae0da.chunk.css",
+    "main.js": "/dotter-coding-test/static/js/main.41c5126d.chunk.js",
+    "main.js.map": "/dotter-coding-test/static/js/main.41c5126d.chunk.js.map",
     "runtime~main.js": "/dotter-coding-test/static/js/runtime~main.1cc39468.js",
     "runtime~main.js.map": "/dotter-coding-test/static/js/runtime~main.1cc39468.js.map",
     "static/css/2.266e55a5.chunk.css": "/dotter-coding-test/static/css/2.266e55a5.chunk.css",
     "static/js/2.247dea82.chunk.js": "/dotter-coding-test/static/js/2.247dea82.chunk.js",
     "static/js/2.247dea82.chunk.js.map": "/dotter-coding-test/static/js/2.247dea82.chunk.js.map",
     "index.html": "/dotter-coding-test/index.html",
-    "precache-manifest.2acdce1571ff56c187e67e917b06ab35.js": "/dotter-coding-test/precache-manifest.2acdce1571ff56c187e67e917b06ab35.js",
+    "precache-manifest.51c804d3ea1f419c8e6f9857d6781203.js": "/dotter-coding-test/precache-manifest.51c804d3ea1f419c8e6f9857d6781203.js",
     "service-worker.js": "/dotter-coding-test/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/dotter-coding-test/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.04973020.chunk.css.map": "/dotter-coding-test/static/css/main.04973020.chunk.css.map"
+    "static/css/main.690ae0da.chunk.css.map": "/dotter-coding-test/static/css/main.690ae0da.chunk.css.map"
   }
 }
