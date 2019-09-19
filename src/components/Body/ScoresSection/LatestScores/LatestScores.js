@@ -40,7 +40,7 @@ class LatestScrores extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentSelectCardName: categories.PERSONAL_LIFE,
+            currentSelectCardName: categories.COMMUNICATION,
         };
     }
 
@@ -86,4 +86,4 @@ class LatestScrores extends React.Component {
     };
 }
 
-export default LatestScrores
+export default LatestScrores;
