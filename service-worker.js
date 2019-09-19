@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dotter-coding-test/precache-manifest.51c804d3ea1f419c8e6f9857d6781203.js"
+  "/dotter-coding-test/precache-manifest.a8f78b19cccedf4e36c525d925ca2c32.js"
 );
 
 self.addEventListener('message', (event) => {
