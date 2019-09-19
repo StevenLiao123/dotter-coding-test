@@ -10,6 +10,9 @@ Technical Stacks:
 #BootStrap
 #react-chartjs-2
 
+--------------------------------------
+
+
 Available Scripts
 In the project directory, you can run:
 
